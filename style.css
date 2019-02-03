@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    border: 2px solid #cc8400;
+    display: block;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    width: 270px;
+    height: 120px;
+    font-size: 50px;
+}
+
+.logo .logo_capital {
+    position: absolute;
+    top: -38px;
+    left: 10px;
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 120px;
+}
+
+.logo .logo_text_1 {
+    position: absolute;
+    top: -5px;
+    left: 70px;
+}
+
+.logo .logo_text_2 {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    text-decoration: underline;
+}
+
+.small_button{
+    position: relative;
+    top: 170px;
+    left: 60px
+}
+
+.small_button li {
+    display: inline;
+    margin-right: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.small_button li:hover {
+    color: #ffa500;
+    transition: 0.5s;
+}
+
+.small_button li:active {
+    color: #cc8400;
+}
+
+.big_button {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 35px;
+    left: 50px;
+    width: 900px;
+    height: 50px;
+
+}
+
+.big_button li {
+    display: flex;
+    text-decoration: none;
+    font-size: 120px;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.big_button li:hover {
+    color: #ffa500;
+    transition: 0.5s;
+}
+
+input {
+    position: relative;
+    top: 230px;
+    left: 60px;
+    border: none;
+    background: url(images/linz.png) no-repeat 3px 1px;
+    background-size: auto 50%;
+    width: 77%;
+    height: 40px;
+    padding-left: 3%;
+    font-size: 16px;
+    border-bottom: 3px solid black;
+    transition: 0.5s;
+}
+
+input:hover {
+    border-color: #ffa500;
+}
+
+input:active, :focus {
+    border-color: #ffa500;
+    outline: none;
+    outline-offset: 0;
+}
+
+table {
+    position: relative;
+    margin-bottom: 50px;
+    width: 80%;
+    top: 250px;
+    left: 60px;
+    border-spacing: inherit;
+}
+
+td {
+    width: 10%;
+    height: 100px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-weight: bolder;
+}
+
+td:nth-child(1) {
+    background: url(images/plane.png) no-repeat 10px 10px;
+    background-size: auto 20%;
+
+}
+
+tr:hover > td:nth-child(2) {
+    color: #ffa500;
+    transition: 0.5s;
+}
+
+table tr {
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+table tr:hover {
+    box-shadow:
+    0 0 0 1px black,
+    5px 5px 0 2px #ffa500;
+    transition: 0.5s ease-out 0.5s;
+}
+
+div .orange {
+    color: orange;
+}

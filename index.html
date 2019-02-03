@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Табло рейсов</title>
+</head>
+<body>
+    <header>
+        </header>
+    <nav>
+        <div class="logo">
+            <span class="logo_capital">A</span><span class="logo_text_1">lexCruu</span><span class="logo_text_2">irLines</span>
+        </div>
+        <div class="big_button">
+        <li class="button" id="departed">Вылет</li>
+        <li class="button" id="arrived">Прилет</li>
+        </div>
+        <div class="small_button">
+            <ul>
+                <li class="button" id="allflight">Все рейсы</li>
+                <li class="button" id="delayed">Задержанные</li>
+            </ul>
+        </div>
+        <input id="search" type="text" name="" value="" placeholder="Введите номер рейса: SU 1424">
+    </nav>
+    <section>
+        <table id="table">
+            </table>
+    </section>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
